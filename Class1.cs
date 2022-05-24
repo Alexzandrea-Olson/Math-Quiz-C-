@@ -8,7 +8,8 @@ namespace ConsoleApp2
 {
     internal class Class1
     {
-        private int testNum; // 
+        //variables
+        private int testNum; 
         public static int correct = 0;
         public static int incorrect = 0;
 
@@ -18,10 +19,12 @@ namespace ConsoleApp2
         double[] arrayThree = { 16, 4, 2 };
         double[] arrayFour = { 2, 4, 16 };
 
+        //constructor
         public Class1(int userInput)
         {
             testNum = userInput;
 
+            //takes user choice of test and then redirects to right method
             switch (testNum)
             {
                 case 1:
